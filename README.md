@@ -14,3 +14,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+Hi there, this is Sarp Susüzer. <br>
+
+🔭 I'm an Industrial Designer who is learning software development after 9-5 work hours. <br>
+🌱 Currently learning HTML and CSS; very beginning of the road (01.03.2022 to mark the date) <br>
+💬 You can ask me about anything related design such as Product Design, UI Design, Manufacturing. <br>
+🤔 <a href="https://twitter.com/sarpsusuzer">Click here to see what I think and share with people.</a> <br>
+📫 sarpsusuzer@gmail.com 
