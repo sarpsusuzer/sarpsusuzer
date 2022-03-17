@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-Hi there, this is <strong> Sarp Susüzer. </strong> <br>
+Hi there, this is <strong> Sarp Susüzer! </strong> <br>
 
 🔭 I'm an Industrial Designer who is learning software development after 9-5 work hours. <br>
 🌱 Currently learning HTML and CSS; very beginning of the road <i>(01.03.2022 to mark the date)</i> <br>
