@@ -93,6 +93,10 @@ body {
   width: 117px;
   height: 33px;
   flex-shrink: 0;
+  opacity: 1;
+}
+.logo-button.animate {
+  animation: 1s ease 0s 1 normal forwards jello-horizontal;
 }
 .button-div {
   position: absolute;
@@ -111,8 +115,8 @@ body {
 }
 .frame-div {
   position: absolute;
-  top: 354px;
-  left: 407px;
+  top: calc(50% - 158px);
+  left: calc(50% - 313px);
   width: 625px;
   height: 166px;
 }
@@ -131,17 +135,6 @@ body {
   color: #fff;
   text-align: left;
 }
-.button {
-  left: 0;
-}
-.button:hover {
-  animation: 1s ease 0s infinite normal none jello-horizontal;
-  opacity: 1;
-}
-.button:active {
-  animation: 1s ease 0s 1 normal none shadow-inset-center;
-  opacity: 1;
-}
 .button,
 .button1,
 .button2,
@@ -152,6 +145,7 @@ body {
   background-color: #383838;
   position: absolute;
   top: 0;
+  left: 0;
   border-radius: 8px;
   box-shadow: 0 4px 0 rgba(5, 5, 5, 0.8);
   display: flex;
@@ -161,15 +155,22 @@ body {
   justify-content: center;
   gap: 10px;
 }
-.button1 {
-  left: 156px;
+.button:hover {
+  animation: 1s ease 0s infinite normal none jello-horizontal;
   opacity: 1;
 }
-.button1.animate {
-  animation: 1s ease 0s 1 normal forwards jello-horizontal;
+.button:active {
+  animation: 1s ease 0s 1 normal none shadow-inset-center;
+  opacity: 1;
+}
+.button1,
+.button2,
+.button3 {
+  left: 156px;
 }
 .button1:hover,
-.button2:hover {
+.button2:hover,
+.button3:hover {
   animation: 1s ease 0s infinite normal none jello-horizontal;
   opacity: 1;
 }
@@ -179,15 +180,11 @@ body {
 }
 .button3 {
   left: 474px;
-  opacity: 1;
-}
-.button3.animate {
-  animation: 1s ease 0s 1 normal forwards jello-horizontal;
 }
 .frame-div1 {
   position: absolute;
-  top: 576px;
-  left: 414px;
+  top: calc(50% - -64px);
+  left: calc(50% - 306px);
   width: 611px;
   height: 52px;
 }
