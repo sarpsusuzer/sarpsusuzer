@@ -1,3 +1,32 @@
+@keyframes jello-horizontal {
+  0%,
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+}
+@keyframes shadow-inset-center {
+  0% {
+    box-shadow: inset 0 0 0 0 transparent;
+  }
+  to {
+    box-shadow: inset 0 0 14px 0 rgb(0 0 0/50%);
+  }
+}
 body {
   margin: 0;
   line-height: normal;
@@ -12,17 +41,17 @@ body {
   object-fit: cover;
 }
 .hi-there-this-is-sarp {
-  top: 0;
-}
-.currently-working-at,
-.hi-there-this-is-sarp,
-.uiux-designer-located-in-ista {
   position: absolute;
+  top: 0;
   left: 196px;
   display: inline-block;
 }
+.currently-working-at,
 .uiux-designer-located-in-ista {
+  position: absolute;
   top: 39px;
+  left: 196px;
+  display: inline-block;
 }
 .currently-working-at {
   top: 124px;
@@ -38,16 +67,14 @@ body {
 .group-icon,
 .synchron-icon {
   position: absolute;
-  max-width: 100%;
-  max-height: 100%;
-}
-.synchron-icon {
   height: 28.51%;
   width: 69.82%;
   top: 35.75%;
   right: 0;
   bottom: 35.75%;
   left: 30.18%;
+  max-width: 100%;
+  max-height: 100%;
 }
 .group-icon {
   height: 75.22%;
@@ -82,10 +109,10 @@ body {
   justify-content: center;
   gap: 10px;
 }
-.frame-div1 {
+.frame-div {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 354px;
+  left: 407px;
   width: 625px;
   height: 166px;
 }
@@ -106,6 +133,14 @@ body {
 }
 .button {
   left: 0;
+}
+.button:hover {
+  animation: 1s ease 0s infinite normal none jello-horizontal;
+  opacity: 1;
+}
+.button:active {
+  animation: 1s ease 0s 1 normal none shadow-inset-center;
+  opacity: 1;
 }
 .button,
 .button1,
@@ -128,30 +163,35 @@ body {
 }
 .button1 {
   left: 156px;
+  opacity: 1;
 }
-.button2 {
+.button1.animate {
+  animation: 1s ease 0s 1 normal forwards jello-horizontal;
+}
+.button1:hover,
+.button2:hover {
+  animation: 1s ease 0s infinite normal none jello-horizontal;
+  opacity: 1;
+}
+.button2,
+.button3 {
   left: 328px;
 }
 .button3 {
   left: 474px;
+  opacity: 1;
 }
-.frame-div,
-.frame-div2 {
+.button3.animate {
+  animation: 1s ease 0s 1 normal forwards jello-horizontal;
+}
+.frame-div1 {
   position: absolute;
-}
-.frame-div2 {
-  top: 263px;
-  left: 7px;
+  top: 576px;
+  left: 414px;
   width: 611px;
   height: 52px;
 }
-.frame-div {
-  top: 354px;
-  left: 407px;
-  width: 625px;
-  height: 315px;
-}
-.page-div {
+.homepage-div {
   position: relative;
   background-color: #242424;
   width: 100%;
