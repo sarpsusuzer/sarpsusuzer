@@ -88,12 +88,12 @@ body {
   padding: 0 18.488889694213867px;
   background-color: transparent;
   position: absolute;
-  top: calc(50% - -152px);
+  top: calc(50% - -153.06px);
   left: calc(50% - 201px);
   border-radius: 12px;
   box-sizing: border-box;
   width: 156px;
-  height: 44px;
+  height: 41.6px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -125,7 +125,7 @@ body {
   padding: 13px 11px;
   background-color: transparent;
   position: absolute;
-  top: calc(50% - -152px);
+  top: calc(50% - -151.56px);
   left: calc(50% - 10px);
   border-radius: 12px;
   box-sizing: border-box;
@@ -158,7 +158,7 @@ body {
   padding: 12px;
   background-color: transparent;
   position: absolute;
-  top: calc(50% - -151px);
+  top: calc(50% - -151.06px);
   left: calc(50% - -44.5px);
   border-radius: 12px;
   box-sizing: border-box;
@@ -200,7 +200,7 @@ body {
   padding: 12px;
   background-color: transparent;
   position: absolute;
-  top: calc(50% - -151px);
+  top: calc(50% - -151.06px);
   left: calc(50% - -154.5px);
   border-radius: 12px;
   display: flex;
@@ -235,10 +235,5 @@ body {
     border: 1.2px solid #fff;
     box-sizing: border-box;
     position: relative;
-  }
-}
-@media screen and (max-width: 768px) {
-  .i-like-to-wake-up-and-have-a-c {
-    width: 401px;
   }
 }
