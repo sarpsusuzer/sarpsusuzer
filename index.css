@@ -3,12 +3,11 @@ body {
   line-height: normal;
 }
 .jggyewsm-400x400-1-icon {
-  position: absolute;
-  top: calc(50% - 197px);
-  left: calc(50% - 201px);
+  position: relative;
   border-radius: 255.06px;
   width: 108px;
   height: 108px;
+  flex-shrink: 0;
   object-fit: cover;
 }
 .hi-there-this-is-sarp {
@@ -38,32 +37,35 @@ body {
 .synchron-a:hover {
   color: #fff;
 }
-.frame-div1 {
+.frame-div3 {
   position: relative;
   width: 270.79px;
   height: 48.06px;
   flex-shrink: 0;
 }
-.frame-div {
-  position: absolute;
-  top: calc(50% - 197px);
-  left: calc(50% - 71px);
+.frame-div1,
+.frame-div2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 38px;
 }
-.i-like-to-wake-up-and-have-a-c,
-.in-my-free-time-i-spend-time {
-  position: absolute;
-  top: calc(50% - 48.94px);
-  left: calc(50% - 201px);
+.frame-div1 {
+  flex-direction: row;
+  gap: 22px;
+}
+.i-like-to-wake-up-and-have-a-c {
+  position: relative;
   display: inline-block;
   width: 401px;
 }
-.in-my-free-time-i-spend-time {
-  top: calc(50% - -45.06px);
+.frame-div4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 28px;
 }
 .star-icon {
   position: relative;
@@ -88,8 +90,8 @@ body {
   padding: 0 18.488889694213867px;
   background-color: transparent;
   position: absolute;
-  top: calc(50% - -153.06px);
-  left: calc(50% - 201px);
+  top: 2px;
+  left: 0;
   border-radius: 12px;
   box-sizing: border-box;
   width: 156px;
@@ -125,8 +127,8 @@ body {
   padding: 13px 11px;
   background-color: transparent;
   position: absolute;
-  top: calc(50% - -151.56px);
-  left: calc(50% - 10px);
+  top: 0.5px;
+  left: 191px;
   border-radius: 12px;
   box-sizing: border-box;
   display: flex;
@@ -158,8 +160,8 @@ body {
   padding: 12px;
   background-color: transparent;
   position: absolute;
-  top: calc(50% - -151.06px);
-  left: calc(50% - -44.5px);
+  top: 0;
+  left: 245.5px;
   border-radius: 12px;
   box-sizing: border-box;
   display: flex;
@@ -179,7 +181,7 @@ body {
   position: relative;
 }
 .logo-instagram-button {
-  left: calc(50% - -99.5px);
+  left: 300.5px;
   flex-direction: row;
 }
 .logo-instagram-button:hover {
@@ -200,8 +202,8 @@ body {
   padding: 12px;
   background-color: transparent;
   position: absolute;
-  top: calc(50% - -151.06px);
-  left: calc(50% - -154.5px);
+  top: 0;
+  left: 355.5px;
   border-radius: 12px;
   display: flex;
   flex-direction: row;
@@ -218,6 +220,22 @@ body {
   border: 1.2px solid #424242;
   box-sizing: border-box;
   position: relative;
+}
+.frame-div5 {
+  position: relative;
+  width: 400.5px;
+  height: 45px;
+  flex-shrink: 0;
+}
+.frame-div {
+  position: absolute;
+  top: 192px;
+  left: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
 }
 .homepage-div {
   position: relative;
