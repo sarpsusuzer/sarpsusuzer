@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title></title>
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./index.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="homepage-div">
+      <img
+        class="jggyewsm-400x400-1-icon"
+        alt=""
+        src="public/jggyewsm-400x400-1@2x.png"
+      />
+      <div class="frame-div">
+        <b class="hi-there-this-is-sarp">Hi There, This is Sarp</b>
+        <div class="frame-div1">
+          <div class="im-designing-user-interfaces">
+            I’m designing User Interfaces
+          </div>
+          <div class="for-a-company-called">for a company called</div>
+          <a
+            class="synchron-a"
+            href="https://www.synchron.com.ua"
+            target="_blank"
+            id="synchronLink"
+            >Synchron</a
+          >
+        </div>
+      </div>
+      <div class="i-like-to-wake-up-and-have-a-c">
+        I like to wake up and have a cup of coffee from freshly ground coffee
+        beans - and one or two ice cubes to make the perfect start to day 🌞️
+      </div>
+      <div class="in-my-free-time-i-spend-time">
+        In my free time, I spend time to learn and practice Frontend
+        Development; slowly but surely 😎
+      </div>
+      <button class="material-button" id="materialButton">
+        <img class="star-icon" alt="" src="public/star.svg" />
+        <div class="button-div">Let’s Chat!</div></button
+      ><button class="logo-twitter-button" id="logoTwitterButton">
+        <img class="vector-icon" alt="" src="public/vector.svg" /></button
+      ><button class="logo-linkedin-button" id="logoLinkedinButton">
+        <img class="vector-icon1" alt="" src="public/vector1.svg" /></button
+      ><button class="logo-instagram-button" id="logoInstagramButton">
+        <img class="vector-icon1" alt="" src="public/vector2.svg" /></button
+      ><button class="logo-github-button" id="logoGithubButton">
+        <img class="vector-icon1" alt="" src="public/vector3.svg" />
+      </button>
+    </div>
+
+    <script>
+      const synchronLink = document.getElementById("synchronLink");
+      if (synchronLink) {
+        synchronLink.addEventListener("click", function () {
+          window.location.href = "mailto:sarp@susuzer.com?subject=Hello There!";
+        });
+      }
+      
+      const materialButton = document.getElementById("materialButton");
+      if (materialButton) {
+        materialButton.addEventListener("click", function () {
+          window.location.href = "mailto:sarp@susuzer.com?subject=Hello There!";
+        });
+      }
+      
+      var logoTwitterButton = document.getElementById("logoTwitterButton");
+      if (logoTwitterButton) {
+        logoTwitterButton.addEventListener("click", function () {
+          window.open("https://twitter.com/SarpSusuzer");
+        });
+      }
+      
+      var logoLinkedinButton = document.getElementById("logoLinkedinButton");
+      if (logoLinkedinButton) {
+        logoLinkedinButton.addEventListener("click", function () {
+          window.open(
+            "https://www.linkedin.com/in/sarpsusuzer/?originalSubdomain=tr"
+          );
+        });
+      }
+      
+      var logoInstagramButton = document.getElementById("logoInstagramButton");
+      if (logoInstagramButton) {
+        logoInstagramButton.addEventListener("click", function () {
+          window.open("https://www.instagram.com/sarpsusuzer/");
+        });
+      }
+      
+      var logoGithubButton = document.getElementById("logoGithubButton");
+      if (logoGithubButton) {
+        logoGithubButton.addEventListener("click", function () {
+          window.open("https://github.com/sarpsusuzer");
+        });
+      }
+      </script>
+  </body>
+</html>
