@@ -3,11 +3,12 @@ body {
   line-height: normal;
 }
 .jggyewsm-400x400-1-icon {
-  position: relative;
+  position: absolute;
+  top: calc(50% - 196.5px);
+  left: calc(50% - 200.5px);
   border-radius: 255.06px;
   width: 108px;
   height: 108px;
-  flex-shrink: 0;
   object-fit: cover;
 }
 .hi-there-this-is-sarp {
@@ -37,35 +38,32 @@ body {
 .synchron-a:hover {
   color: #fff;
 }
-.frame-div3 {
+.frame-div2 {
   position: relative;
   width: 270.79px;
   height: 48.06px;
   flex-shrink: 0;
 }
-.frame-div1,
-.frame-div2 {
+.frame-div1 {
+  position: absolute;
+  top: calc(50% - 196.5px);
+  left: calc(50% - 70.5px);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 38px;
 }
-.frame-div1 {
-  flex-direction: row;
-  gap: 22px;
-}
-.i-like-to-wake-up-and-have-a-c {
-  position: relative;
+.i-like-to-wake-up-and-have-a-c,
+.in-my-free-time-i-spend-time {
+  position: absolute;
+  top: calc(50% - 48.44px);
+  left: calc(50% - 200.5px);
   display: inline-block;
   width: 401px;
 }
-.frame-div4 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 28px;
+.in-my-free-time-i-spend-time {
+  top: calc(50% - -45.56px);
 }
 .star-icon {
   position: relative;
@@ -90,12 +88,12 @@ body {
   padding: 0 18.488889694213867px;
   background-color: transparent;
   position: absolute;
-  top: 2px;
-  left: 0;
+  top: calc(50% - -152.5px);
+  left: calc(50% - 200.5px);
   border-radius: 12px;
   box-sizing: border-box;
   width: 156px;
-  height: 41.6px;
+  height: 44px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -127,8 +125,8 @@ body {
   padding: 13px 11px;
   background-color: transparent;
   position: absolute;
-  top: 0.5px;
-  left: 191px;
+  top: calc(50% - -152.5px);
+  left: calc(50% - 9.5px);
   border-radius: 12px;
   box-sizing: border-box;
   display: flex;
@@ -160,8 +158,8 @@ body {
   padding: 12px;
   background-color: transparent;
   position: absolute;
-  top: 0;
-  left: 245.5px;
+  top: calc(50% - -151.5px);
+  left: calc(50% - -45px);
   border-radius: 12px;
   box-sizing: border-box;
   display: flex;
@@ -181,7 +179,7 @@ body {
   position: relative;
 }
 .logo-instagram-button {
-  left: 300.5px;
+  left: calc(50% - -100px);
   flex-direction: row;
 }
 .logo-instagram-button:hover {
@@ -202,8 +200,8 @@ body {
   padding: 12px;
   background-color: transparent;
   position: absolute;
-  top: 0;
-  left: 355.5px;
+  top: calc(50% - -151.5px);
+  left: calc(50% - -155px);
   border-radius: 12px;
   display: flex;
   flex-direction: row;
@@ -221,21 +219,12 @@ body {
   box-sizing: border-box;
   position: relative;
 }
-.frame-div5 {
-  position: relative;
-  width: 400.5px;
-  height: 45px;
-  flex-shrink: 0;
-}
 .frame-div {
   position: absolute;
-  top: 192px;
-  left: 520px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 40px;
+  top: calc(50% - 197px);
+  left: calc(50% - 201px);
+  width: 401px;
+  height: 393px;
 }
 .homepage-div {
   position: relative;
@@ -253,5 +242,10 @@ body {
     border: 1.2px solid #fff;
     box-sizing: border-box;
     position: relative;
+  }
+}
+@media screen and (max-width: 768px) {
+  .i-like-to-wake-up-and-have-a-c {
+    width: 401px;
   }
 }

@@ -20,54 +20,47 @@
   <body>
     <div class="homepage-div">
       <div class="frame-div">
+        <img
+          class="jggyewsm-400x400-1-icon"
+          alt=""
+          src="public/jggyewsm-400x400-1@2x.png"
+        />
         <div class="frame-div1">
-          <img
-            class="jggyewsm-400x400-1-icon"
-            alt=""
-            src="public/jggyewsm-400x400-1@2x.png"
-          />
+          <b class="hi-there-this-is-sarp">Hi There, This is Sarp</b>
           <div class="frame-div2">
-            <b class="hi-there-this-is-sarp">Hi There, This is Sarp</b>
-            <div class="frame-div3">
-              <div class="im-designing-user-interfaces">
-                I’m designing User Interfaces
-              </div>
-              <div class="for-a-company-called">for a company called</div>
-              <a
-                class="synchron-a"
-                href="https://www.synchron.com.ua"
-                target="_blank"
-                id="synchronLink"
-                >Synchron</a
-              >
+            <div class="im-designing-user-interfaces">
+              I’m designing User Interfaces
             </div>
+            <div class="for-a-company-called">for a company called</div>
+            <a
+              class="synchron-a"
+              href="https://www.synchron.com.ua"
+              target="_blank"
+              id="synchronLink"
+              >Synchron</a
+            >
           </div>
         </div>
-        <div class="frame-div4">
-          <div class="i-like-to-wake-up-and-have-a-c">
-            I like to wake up and have a cup of coffee from freshly ground
-            coffee beans - and one or two ice cubes to make the perfect start to
-            day 🌞️
-          </div>
-          <div class="i-like-to-wake-up-and-have-a-c">
-            In my free time, I spend time to learn and practice Frontend
-            Development; slowly but surely 😎
-          </div>
+        <div class="i-like-to-wake-up-and-have-a-c">
+          I like to wake up and have a cup of coffee from freshly ground coffee
+          beans - and one or two ice cubes to make the perfect start to day 🌞️
         </div>
-        <div class="frame-div5">
-          <button class="material-button">
-            <img class="star-icon" alt="" src="public/star.svg" />
-            <div class="button-div">Let’s Chat!</div></button
-          ><button class="logo-twitter-button" id="logoTwitterButton">
-            <img class="vector-icon" alt="" src="public/vector.svg" /></button
-          ><button class="logo-linkedin-button" id="logoLinkedinButton">
-            <img class="vector-icon1" alt="" src="public/vector1.svg" /></button
-          ><button class="logo-instagram-button" id="logoInstagramButton">
-            <img class="vector-icon1" alt="" src="public/vector2.svg" /></button
-          ><button class="logo-github-button" id="logoGithubButton">
-            <img class="vector-icon1" alt="" src="public/vector3.svg" />
-          </button>
+        <div class="in-my-free-time-i-spend-time">
+          In my free time, I spend time to learn and practice Frontend
+          Development; slowly but surely 😎
         </div>
+        <button class="material-button" id="materialButton">
+          <img class="star-icon" alt="" src="public/star.svg" />
+          <div class="button-div">Let’s Chat!</div></button
+        ><button class="logo-twitter-button" id="logoTwitterButton">
+          <img class="vector-icon" alt="" src="public/vector.svg" /></button
+        ><button class="logo-linkedin-button" id="logoLinkedinButton">
+          <img class="vector-icon1" alt="" src="public/vector1.svg" /></button
+        ><button class="logo-instagram-button" id="logoInstagramButton">
+          <img class="vector-icon1" alt="" src="public/vector2.svg" /></button
+        ><button class="logo-github-button" id="logoGithubButton">
+          <img class="vector-icon1" alt="" src="public/vector3.svg" />
+        </button>
       </div>
     </div>
 
@@ -75,6 +68,13 @@
       const synchronLink = document.getElementById("synchronLink");
       if (synchronLink) {
         synchronLink.addEventListener("click", function () {
+          window.location.href = "mailto:sarp@susuzer.com?subject=Hello There!";
+        });
+      }
+      
+      const materialButton = document.getElementById("materialButton");
+      if (materialButton) {
+        materialButton.addEventListener("click", function () {
           window.location.href = "mailto:sarp@susuzer.com?subject=Hello There!";
         });
       }
